@@ -22,13 +22,13 @@ face_oval = "AGGCCTCA"
 
 #all suspects are male caucasians
 
-if dna_suspect.find(hair_red) and dna_suspect.find(eye_brown) and dna_suspect.find(face_round):
+if dna_suspect.find(hair_red) and dna_suspect.find(eye_brown) and dna_suspect.find(face_round) != -1:
     print("Ziga ate the ice-cream!")
 
-elif dna_suspect.find(hair_black) and dna_suspect.find(eye_blue) and dna_suspect.find(face_oval):
+elif dna_suspect.find(hair_black) and dna_suspect.find(eye_blue) and dna_suspect.find(face_oval) != -1:
     print("Matej ate the ice-cream!")
 
-elif dna_suspect.find(hair_brown) and dna_suspect.find(eye_green) and dna_suspect.find(face_square):
+elif dna_suspect.find(hair_brown) and dna_suspect.find(eye_green) and dna_suspect.find(face_square) != -1:
     print("Miha ate the ice-cream!")
 
 else:
